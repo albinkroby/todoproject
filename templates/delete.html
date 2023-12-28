@@ -1,0 +1,10 @@
+<!-- templates/movieapp/delete.html -->
+{% extends "base.html" %}
+{% block body %}
+    <h2>Delete Movie</h2>
+    <form method="post">
+        {% csrf_token %}
+        Are you sure you want to delete this movie ?
+        <button type="submit">Save Changes</button>
+    </form>
+{% endblock body %}

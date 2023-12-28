@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>Todo Lists</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row ">
+              <div class="col-3">
+                <div class="card-body">
+                  <h5 class="card-title">{{ task.name }}</h5>
+                  <p class="card-text">{{ task.priority }}</p>
+                  <p class="card-text">{{ task.date }}</p>
+                  <a href="{% url 'cbvupdate' task.id %}" class="btn btn-primary">Update</a>
+                  <a href="{% url 'cbvdelete' task.id %}" class="btn btn-primary">Delete</a>
+                </div>
+              </div>
+            </div>
+        </div>    
+      </div>    
+  </div>    
+{% endblock body %}

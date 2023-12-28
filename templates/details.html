@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>Todo Lists</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row ">
+              <div class="col-3">
+                <div class="card-body">
+                  <h5 class="card-title">{{ tasks.name }}</h5>
+                  <p class="card-text">{{ tasks.priority }}</p>
+                </div>
+              </div>
+            </div>
+        </div>    
+      </div>    
+  </div>    
+{% endblock body %}

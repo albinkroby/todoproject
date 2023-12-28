@@ -1,0 +1,18 @@
+body {
+    position: relative;
+    margin: 0;
+  }
+  
+  .content {
+    padding-bottom: 2.5rem;
+    position:relative;
+    min-height: 100vh;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Your footer styles go here */
+  }
+  
