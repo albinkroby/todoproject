@@ -13,7 +13,7 @@ The ToDo Project is a task management application designed to help you organize 
 - **Organize Tasks**: Categorize tasks into different lists or tags.
 - **Prioritize Tasks**: Assign priority levels to tasks to focus on what's most important.
 - **Due Dates**: Set due dates for tasks to track deadlines.
-- **Responsive Design**: Access ToDo Project on desktop, tablet, or mobile devices.
+- **Responsive Design**: Access ToDo Project on desktop, tablet, or mobile devices. 
 
 ## Acknowledgements
 
