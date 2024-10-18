@@ -1,5 +1,7 @@
 asgiref==3.7.2
 Django==5.0
+gunicorn==23.0.0
+packaging==24.1
 python-dotenv==1.0.1
 setuptools==75.2.0
 sqlparse==0.4.4
